@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/sync?modo=atualizacao", "schedule": "17 */3 * * *" },
+    { "path": "/api/cron/alertas", "schedule": "43 10 * * *" }
+  ]
+}
